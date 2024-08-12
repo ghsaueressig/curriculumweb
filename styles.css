@@ -27,6 +27,7 @@ header, main {
 .aligned-content {
     display: flex;
     align-items: center;
+    margin-left: 40px; /* Adiciona margem para alinhar com o texto sem imagem */
 }
 
 .aligned-content img {
@@ -38,3 +39,6 @@ header, main {
     color: inherit;
 }
 
+.no-image {
+    margin-left: 48px; /* Alinhamento para o texto que não tem imagens */
+}
