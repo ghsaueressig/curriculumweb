@@ -27,7 +27,8 @@ header, main {
 .aligned-content {
     display: flex;
     align-items: center;
-    margin-left: 40px; /* Adiciona margem para alinhar com o texto sem imagem */
+    justify-content: center; /* Centraliza a imagem e o texto */
+    margin-left: 0;
 }
 
 .aligned-content img {
